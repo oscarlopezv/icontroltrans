@@ -264,7 +264,7 @@ var nombreEmpresa = "<?php echo $nombreEmpresa;?>";
 							'noResultsText' => "Enter para buscar",
 					])?></div>
 					
-			<?php echo $form->field($model, 'idtercero')->widget(Select2::classname(), [
+			<?php echo $form->field($model, 'idterceros')->widget(Select2::classname(), [
 			'data' => [],
 			'options' => ['placeholder' => 'Select a state ...'],
 			'pluginOptions' => [
